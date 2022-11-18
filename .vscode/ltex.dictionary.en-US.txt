@@ -1,0 +1,3 @@
+godbolt
+Inlining
+inlining
