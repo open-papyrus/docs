@@ -6,7 +6,7 @@ Optimizations are often the reason why compiled code runs so fast. Modern compil
 
 ```c++
 int mulByConstant(int x) {
-  return x * 65599;
+    return x * 65599;
 }
 ```
 
@@ -14,7 +14,7 @@ The instructions generated are exactly what we imagine it to be, an `imul` (inte
 
 ```x86asm
 mulByConstant(int):
-    imul eax, edi, 65599
+    imul    eax, edi, 65599
     ret
 ```
 
@@ -22,11 +22,11 @@ Now what will happen if we wrote some very bad code that does the same thing ([g
 
 ```c++
 int mulByConstant(int x) {
-  return (x << 16) + (x << 6) - x;
-  //         ^           ^
-  //     x * 65536       |
-  //                  x * 64
-  // 65536x + 64x - 1x = 65599x
+    return (x << 16) + (x << 6) - x;
+    //         ^           ^
+    //     x * 65536       |
+    //                  x * 64
+    // 65536x + 64x - 1x = 65599x
 }
 ```
 
@@ -34,11 +34,26 @@ In this rather intimidating function we are doing the same thing (multiplying `x
 
 ```x86asm
 mulByConstant(int):
-    imul eax, edi, 65599
+    imul    eax, edi, 65599
     ret
 ```
 
-The result that the compiler generated is the same as before, it looked at our code and saw what we were trying to do. The compiler saw our arithmetic operations and understood we want to multiply by `65599`. It also knows that a single `imul` instruction is cheaper than whatever we wanted to do.
+The result that the compiler generated is the same as before, it looked at our arithmetic operations and understood we want to multiply by `65599`. It also knows that a single `imul` instruction is cheaper than whatever we wanted to do:
+
+```x86asm
+mulByConstant(int): # using bit-shifts with no optimizations
+    push    rbp
+    mov     rbp, rsp
+    mov     dword ptr [rbp - 4], edi
+    mov     eax, dword ptr [rbp - 4]
+    shl     eax, 16
+    mov     ecx, dword ptr [rbp - 4]
+    shl     ecx, 6
+    add     eax, ecx
+    sub     eax, dword ptr [rbp - 4]
+    pop     rbp
+    ret
+```
 
 ## Optimizing Papyrus
 
