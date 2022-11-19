@@ -1,6 +1,7 @@
 # Summary
 
 [Introduction](./introduction.md)
+[Additional Resources](./Additional_Resources.md)
 
 # User Guide
 
