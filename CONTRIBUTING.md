@@ -11,7 +11,7 @@
 Open a terminal and start `mdbook`:
 
 ```bash
-mdbook watch --open
+mdbook serve --open
 ```
 
 This will open your browser, and you can start editing the files in [src](./src/).
