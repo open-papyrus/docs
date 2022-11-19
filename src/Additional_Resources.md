@@ -59,3 +59,5 @@ The [Open Papyrus Compiler](https://github.com/open-papyrus/papyrus-compiler) is
 - [joelday/papyrus-lang](https://github.com/joelday/papyrus-lang): Papyrus Language Tools for VS Code, written in C#. Contains a full Language Service and Server.
 
 - [blu3mania/npp-papyrus](https://github.com/blu3mania/npp-papyrus): Notepad++ Plugin for Papyrus.
+
+- [Kiyozz/papyrus-compiler-app](https://github.com/Kiyozz/papyrus-compiler-app): Wrapper around the CK compiler for MO2.
