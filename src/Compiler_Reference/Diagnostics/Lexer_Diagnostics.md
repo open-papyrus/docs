@@ -11,7 +11,7 @@ The Lexer encountered an unknown token.
 Example:
 
 ```papyrus
-^
+^ ; a caret character is not valid in Papyrus
 ```
 
 ## `L002`: ParseIntError

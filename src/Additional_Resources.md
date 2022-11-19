@@ -54,6 +54,8 @@ The [Open Papyrus Compiler](https://github.com/open-papyrus/papyrus-compiler) is
 
 - [fireundubh/OpenPapyrus](https://github.com/fireundubh/OpenPapyrus): [ANTLR4](https://www.antlr.org/) grammars for Fallout 4 Papyrus.
 
+- [Pickysaurus/highlightjs-papyrus](https://github.com/Pickysaurus/highlightjs-papyrus): Papyrus grammars for [highlight.js](https://github.com/highlightjs/highlight.js)
+
 - [joelday/papyrus-lang](https://github.com/joelday/papyrus-lang): Papyrus Language Tools for VS Code, written in C#. Contains a full Language Service and Server.
 
 - [blu3mania/npp-papyrus](https://github.com/blu3mania/npp-papyrus): Notepad++ Plugin for Papyrus.

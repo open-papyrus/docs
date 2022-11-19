@@ -12,7 +12,6 @@ create-missing = false
 [output.html]
 git-repository-url = "https://github.com/open-papyrus/docs"
 edit-url-template = "https://github.com/open-papyrus/docs/edit/master/docs/{path}"
-additional-js = ["papyrus.min.js", "x86asm.min.js"]
 
 [output.html.print]
 enable = false

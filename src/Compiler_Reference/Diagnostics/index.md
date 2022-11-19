@@ -15,8 +15,8 @@ An error thrown during compilation will halt the entire process and requires a f
 
 ### Warning
 
-A warning does not halt compilation however it shows potential issues in the code such as performance issues, unnecessary work or practices.
+A warning does not halt compilation however it shows potential issues in the code such as performance issues and unnecessary work.
 
 ### Suggestion
 
-TODO
+A suggestion does not halt compilation and provide tips to improve your code which don't fall in other severity levels.
