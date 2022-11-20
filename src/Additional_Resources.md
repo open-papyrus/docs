@@ -58,6 +58,10 @@ The [Open Papyrus Compiler](https://github.com/open-papyrus/papyrus-compiler) is
 
 - [joelday/papyrus-lang](https://github.com/joelday/papyrus-lang): Papyrus Language Tools for VS Code, written in C#. Contains a full Language Service and Server.
 
+- [joelday/papyrus-debug-server](https://github.com/joelday/papyrus-debug-server): Debug Adapter Protocol for Skyrim and Fallout 4. Uses a SKSE/F4SE and WebSocket to communicate with the Client.
+
+- [nikitalita/papyrus-debug-server ](https://github.com/nikitalita/papyrus-debug-server/tree/master) fork of [joelday/papyrus-debug-server](https://github.com/joelday/papyrus-debug-server) with various modernization updates.
+
 - [blu3mania/npp-papyrus](https://github.com/blu3mania/npp-papyrus): Notepad++ Plugin for Papyrus.
 
 - [Kiyozz/papyrus-compiler-app](https://github.com/Kiyozz/papyrus-compiler-app): Wrapper around the CK compiler for MO2.
