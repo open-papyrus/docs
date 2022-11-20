@@ -65,3 +65,15 @@ The [Open Papyrus Compiler](https://github.com/open-papyrus/papyrus-compiler) is
 - [blu3mania/npp-papyrus](https://github.com/blu3mania/npp-papyrus): Notepad++ Plugin for Papyrus.
 
 - [Kiyozz/papyrus-compiler-app](https://github.com/Kiyozz/papyrus-compiler-app): Wrapper around the CK compiler for MO2.
+
+## Discord Servers
+
+- [Papyrus Language Tools](https://discord.gg/E4dWujQ): Server for [joelday/papyrus-lang](https://github.com/joelday/papyrus-lang)
+- [Advanced Settlement Power (redux)](https://discord.gg/X6Udqfx): Server for [cadpnq/papyrith](https://github.com/cadpnq/papyrith)
+- [SkyrimSE RE](https://discord.gg/apkA9B4fnW): Server for various SKSE/F4SE plugins, mainly focused on reverse engineering.
+- [Mutagen](https://discord.gg/A3jbaGe): Server for [Mutagen-Modding](https://github.com/Mutagen-Modding)
+- [Modding Tools](https://discord.gg/8KHQqTw): Server for [zEdit](https://github.com/z-edit/zedit), [Cathedral-Assets-Optimizer](https://gitlab.com/G_ka/Cathedral_Assets_Optimizer) and other tools
+- [xEdit](https://discord.gg/mQA5Wnu): Server for [xEdit](https://github.com/TES5Edit/TES5Edit)
+- [NexusMods](https://discord.gg/nexusmods): Server for [NexusMods](https://nexusmods.com)
+- [Wabbajack](https://discord.gg/Wabbajack): Server for [Wabbajack](https://wabbajack.org)
+- [Mod Organizer 2](https://discord.gg/6GKR9jZ): Server for [Mod Organizer 2](https://github.com/ModOrganizer2/modorganizer)
