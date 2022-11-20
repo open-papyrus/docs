@@ -22,11 +22,14 @@
 
 # Papyrus Language Reference
 
-- [Syntax]()
-    - [Keywords]()
-    - [Identifiers]()
-    - [Operators]()
-- [Concepts]()
+- [Language Reference Introduction](./Papyrus_Language_Reference/index.md)
+- [Lexical structure](./Papyrus_Language_Reference/Lexial_structure/index.md)
+    - [Keywords](./Papyrus_Language_Reference/Lexial_structure/Keywords.md)
+    - [Identifiers](./Papyrus_Language_Reference/Lexial_structure/Identifiers.md)
+    - [Comments](./Papyrus_Language_Reference/Lexial_structure/Comments.md)
+    - [Whitespace](./Papyrus_Language_Reference/Lexial_structure/Whitespace.md)
+    - [Tokens](./Papyrus_Language_Reference/Lexial_structure/Tokens.md)
+- [Concepts](./Papyrus_Language_Reference/Concepts/index.md)
     - [Scripts]()
         - [Script Flags]()
     - [Comments]()
