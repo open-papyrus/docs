@@ -10,6 +10,7 @@ description = "Documentation for the Open Papyrus Compiler"
 create-missing = false
 
 [output.html]
+additional-css = ["theme/custom.css"]
 git-repository-url = "https://github.com/open-papyrus/docs"
 edit-url-template = "https://github.com/open-papyrus/docs/edit/master/docs/{path}"
 

@@ -23,6 +23,7 @@
 # Papyrus Language Reference
 
 - [Language Reference Introduction](./Papyrus_Language_Reference/index.md)
+- [Notation](./Papyrus_Language_Reference/Notation.md)
 - [Lexical structure](./Papyrus_Language_Reference/Lexial_structure/index.md)
     - [Keywords](./Papyrus_Language_Reference/Lexial_structure/Keywords.md)
     - [Identifiers](./Papyrus_Language_Reference/Lexial_structure/Identifiers.md)
