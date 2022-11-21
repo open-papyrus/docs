@@ -138,14 +138,7 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="keywords"><a class="header" href="#keywords">Keywords</a></h1>
-<p>Keywords are divided into these categories:</p>
-<ul>
-<li><a href="#reserved-keywords">Reserved keywords</a></li>
-<li><a href="#keyword-is-identifier">Special identifiers</a></li>
-</ul>
-<p>Keywords are <strong>case-insensitive</strong> meaning you can write them in complete UPPERCASE, lowercase or anything in between.</p>
-<h2 id="reserved-keywords"><a class="header" href="#reserved-keywords">Reserved keywords</a></h2>
-<p>These keywords are <em>reserved</em> and cannot be used as <a href="./Identifiers.html">identifiers</a>.</p>
+<p>Keywords are <strong>case-insensitive</strong> meaning you can write them in complete UPPERCASE, lowercase or anything in between. All keywords are <em>reserved</em> and cannot be used as <a href="./Identifiers.html">identifiers</a>.</p>
 <blockquote>
 <p><strong><sup>Lexer:</sup></strong><br />
 KW_AS: <code>As</code><br />
@@ -173,23 +166,35 @@ KW_LENGTH: <code>Length</code><br />
 KW_NATIVE: <code>Native</code><br />
 KW_NEW: <code>New</code><br />
 KW_NONE: <code>None</code><br />
+KW_PARENT: <code>Parent</code><br />
 KW_PROPERTY: <code>Property</code><br />
 KW_RETURN: <code>Return</code><br />
 KW_SCRIPTNAME: <code>ScriptName</code><br />
+KW_SELF: <code>Self</code><br />
 KW_STATE: <code>State</code><br />
 KW_STRING: <code>String</code><br />
 KW_TRUE: <code>True</code><br />
 KW_WHILE: <code>While</code></p>
 </blockquote>
-<h2 id="keyword-is-identifier"><a class="header" href="#keyword-is-identifier">Keyword is identifier</a></h2>
-<p>These keywords <strong>are</strong> <a href="./Identifiers.html">Identifiers</a> and carry special meaning.</p>
+<p>The following keywords were added in Fallout 4.</p>
 <blockquote>
-<p><strong><sup>Lexer:</sup></strong><br />
-KW_PARENT: <code>Parent</code><br />
-KW_SELF: <code>Self</code></p>
+<p><strong><sup>Lexer Fallout 4:</sup></strong><br />
+KW_BETAONLY: <code>BetaOnly</code><br />
+KW_CONST: <code>Const</code><br />
+KW_CUSTOMEVENT: <code>CustomEvent</code><br />
+KW_CUSTOMEVENTNAME: <code>CustomEventName</code><br />
+KW_DEBUGONLY: <code>DebugOnly</code><br />
+KW_ENDGROUP: <code>EndGroup</code><br />
+KW_ENDSTRUCT: <code>EndStruct</code><br />
+KW_GROUP: <code>Group</code><br />
+KW_IS: <code>Is</code><br />
+KW_SCRIPTEVENTNAME: <code>ScriptEventName</code><br />
+KW_STRUCT: <code>Struct</code><br />
+KW_STRUCTVARNAME: <code>StructVarName</code><br />
+KW_VAR: <code>Var</code></p>
 </blockquote>
 <div class="warning">
-<p><code>Parent</code> and <code>Self</code> are treated as identifiers by the Creation Kit Compiler meaning the following is valid Papyrus code but should not be used:</p>
+<p>The Skyrim Creation Kit compiler allows <code>Parent</code> and <code>Self</code> to be used as identifiers. The following code will compile with the Skyrim CK compiler but will not compile with the Fallout 4 CK compiler. Custom compilers <strong>should</strong> also fail to compile this code.</p>
 <pre><code class="language-papyrus">int Parent = 0
 int Self = 0
 </code></pre>
