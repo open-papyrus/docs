@@ -1,15 +1,6 @@
 # Keywords
 
-Keywords are divided into these categories:
-
-- [Reserved keywords](#reserved-keywords)
-- [Special identifiers](#keyword-is-identifier)
-
-Keywords are **case-insensitive** meaning you can write them in complete UPPERCASE, lowercase or anything in between.
-
-## Reserved keywords
-
-These keywords are _reserved_ and cannot be used as [identifiers](./Identifiers.md).
+Keywords are **case-insensitive** meaning you can write them in complete UPPERCASE, lowercase or anything in between. All keywords are _reserved_ and cannot be used as [identifiers](./Identifiers.md).
 
 > **<sup>Lexer:</sup>**\
 > KW_AS: `As`\
@@ -37,25 +28,36 @@ These keywords are _reserved_ and cannot be used as [identifiers](./Identifiers.
 > KW_NATIVE: `Native`\
 > KW_NEW: `New`\
 > KW_NONE: `None`\
+> KW_PARENT: `Parent`\
 > KW_PROPERTY: `Property`\
 > KW_RETURN: `Return`\
 > KW_SCRIPTNAME: `ScriptName`\
+> KW_SELF: `Self`\
 > KW_STATE: `State`\
 > KW_STRING: `String`\
 > KW_TRUE: `True`\
 > KW_WHILE: `While`
 
-## Keyword is identifier
+The following keywords were added in Fallout 4.
 
-These keywords **are** [Identifiers](./Identifiers.md) and carry special meaning.
-
-> **<sup>Lexer:</sup>**\
-> KW_PARENT: `Parent`\
-> KW_SELF: `Self`
+> **<sup>Lexer Fallout 4:</sup>**\
+> KW_BETAONLY: `BetaOnly`\
+> KW_CONST: `Const`\
+> KW_CUSTOMEVENT: `CustomEvent`\
+> KW_CUSTOMEVENTNAME: `CustomEventName`\
+> KW_DEBUGONLY: `DebugOnly`\
+> KW_ENDGROUP: `EndGroup`\
+> KW_ENDSTRUCT: `EndStruct`\
+> KW_GROUP: `Group`\
+> KW_IS: `Is`\
+> KW_SCRIPTEVENTNAME: `ScriptEventName`\
+> KW_STRUCT: `Struct`\
+> KW_STRUCTVARNAME: `StructVarName`\
+> KW_VAR: `Var`
 
 <div class="warning">
 
-`Parent` and `Self` are treated as identifiers by the Creation Kit Compiler meaning the following is valid Papyrus code but should not be used:
+The Skyrim Creation Kit compiler allows `Parent` and `Self` to be used as identifiers. The following code will compile with the Skyrim CK compiler but will not compile with the Fallout 4 CK compiler. Custom compilers **should** also fail to compile this code.
 
 ```papyrus
 int Parent = 0

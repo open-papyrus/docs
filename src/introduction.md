@@ -4,6 +4,8 @@ The compiler provided by Bethesda with the Creation Kit does the minimum amount 
 
 This project aims to create a modern Papyrus compiler for a better development experience and better runtime performance by creating meaningful diagnostics and applying optimizations.
 
+Aside from the compiler, the [Open Papyrus project](https://github.com/open-papyrus) contains other tools you might find useful.
+
 ## Using this Wiki
 
 This clean interface is provided by [mdBook](https://rust-lang.github.io/mdBook/). The left panel allows you to navigate to any post. Greyed out links are pages that have not been created yet.
