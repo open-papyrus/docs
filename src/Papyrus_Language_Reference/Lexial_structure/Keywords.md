@@ -28,11 +28,11 @@ Keywords are **case-insensitive** meaning you can write them in complete UPPERCA
 > KW_NATIVE: `Native`\
 > KW_NEW: `New`\
 > KW_NONE: `None`\
-> KW_PARENT: `Parent`\
+> KW_PARENT: `Parent`[^1]\
 > KW_PROPERTY: `Property`\
 > KW_RETURN: `Return`\
 > KW_SCRIPTNAME: `ScriptName`\
-> KW_SELF: `Self`\
+> KW_SELF: `Self`[^1]\
 > KW_STATE: `State`\
 > KW_STRING: `String`\
 > KW_TRUE: `True`\
@@ -57,7 +57,7 @@ The following keywords were added in Fallout 4.
 
 <div class="warning">
 
-The `Parent` and `Self` keywords are special variables and treated as identifiers by both the Skyrim and Fallout 4 Creation Kit compilers, meaning the following code will compile. Custom compilers **should** fail to compile this code as it is not functional.
+ [^1]: The `Parent` and `Self` keywords are special variables and treated as identifiers by both the Skyrim and Fallout 4 Creation Kit compilers, meaning the following code will compile. Custom compilers **should** fail to compile this code as it is not functional.
 
 ```papyrus
 int Parent = 0
