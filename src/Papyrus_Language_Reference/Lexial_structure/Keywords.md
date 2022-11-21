@@ -57,7 +57,7 @@ The following keywords were added in Fallout 4.
 
 <div class="warning">
 
-The Skyrim Creation Kit compiler allows `Parent` and `Self` to be used as identifiers. The following code will compile with the Skyrim CK compiler but will not compile with the Fallout 4 CK compiler. Custom compilers **should** also fail to compile this code.
+The `Parent` and `Self` keywords are special variables and treated as identifiers by both the Skyrim and Fallout 4 Creation Kit compilers, meaning the following code will compile. Custom compilers **should** fail to compile this code as it is not functional.
 
 ```papyrus
 int Parent = 0
