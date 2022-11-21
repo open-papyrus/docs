@@ -27,7 +27,7 @@
 - [Lexical structure](./Papyrus_Language_Reference/Lexial_structure/index.md)
     - [Keywords](./Papyrus_Language_Reference/Lexial_structure/Keywords.md)
     - [Flags](./Papyrus_Language_Reference/Lexial_structure/Flags.md)
-    - [Identifiers (WIP)](./Papyrus_Language_Reference/Lexial_structure/Identifiers.md)
+    - [Identifiers](./Papyrus_Language_Reference/Lexial_structure/Identifiers.md)
     - [Comments (WIP)](./Papyrus_Language_Reference/Lexial_structure/Comments.md)
     - [Whitespace (WIP)](./Papyrus_Language_Reference/Lexial_structure/Whitespace.md)
     - [Tokens (WIP)](./Papyrus_Language_Reference/Lexial_structure/Tokens.md)
