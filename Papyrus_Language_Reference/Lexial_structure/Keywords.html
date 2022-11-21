@@ -194,7 +194,7 @@ KW_STRUCTVARNAME: <code>StructVarName</code><br />
 KW_VAR: <code>Var</code></p>
 </blockquote>
 <div class="warning">
-<p>The Skyrim Creation Kit compiler allows <code>Parent</code> and <code>Self</code> to be used as identifiers. The following code will compile with the Skyrim CK compiler but will not compile with the Fallout 4 CK compiler. Custom compilers <strong>should</strong> also fail to compile this code.</p>
+<p>The <code>Parent</code> and <code>Self</code> keywords are special variables and treated as identifiers by both the Skyrim and Fallout 4 Creation Kit compilers, meaning the following code will compile. Custom compilers <strong>should</strong> fail to compile this code as it is not functional.</p>
 <pre><code class="language-papyrus">int Parent = 0
 int Self = 0
 </code></pre>
