@@ -29,7 +29,7 @@
     - [Flags](./Papyrus_Language_Reference/Lexial_structure/Flags.md)
     - [Identifiers](./Papyrus_Language_Reference/Lexial_structure/Identifiers.md)
     - [Whitespace](./Papyrus_Language_Reference/Lexial_structure/Whitespace.md)
-    - [Comments (WIP)](./Papyrus_Language_Reference/Lexial_structure/Comments.md)
+    - [Comments](./Papyrus_Language_Reference/Lexial_structure/Comments.md)
     - [Tokens (WIP)](./Papyrus_Language_Reference/Lexial_structure/Tokens.md)
 - [Concepts](./Papyrus_Language_Reference/Concepts/index.md)
     - [Scripts (WIP)](./Papyrus_Language_Reference/Concepts/Scripts.md)
