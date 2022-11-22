@@ -8,3 +8,6 @@ disassembler
 mdBook
 WebSocket
 encodings
+namespaced
+NAMESPACED
+Namespaced
