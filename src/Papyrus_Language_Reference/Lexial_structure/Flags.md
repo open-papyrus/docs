@@ -1,6 +1,6 @@
 # Flags
 
-Flags are modifiers that can be applied [Scripts](../Concepts/Scripts.md), [Properties](../Concepts/Properties.md), [Variables](../Concepts/Variables.md) and [Functions](../Concepts/Functions.md). There are two types of flags:
+Flags are modifiers that can be applied to [Scripts](../Concepts/Scripts.md), [Properties](../Concepts/Properties.md), [Variables](../Concepts/Variables.md) and [Functions](../Concepts/Functions.md). There are two types of flags:
 
 - [Flags as Keywords](#keywords)
 - [User-defined Flags](#user-defined-flags)
