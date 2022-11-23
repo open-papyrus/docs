@@ -33,7 +33,6 @@
     - [Tokens (WIP)](./Papyrus_Language_Reference/Lexial_structure/Tokens.md)
 - [Concepts](./Papyrus_Language_Reference/Concepts/index.md)
     - [Scripts](./Papyrus_Language_Reference/Concepts/Scripts.md)
-    - [Comments (WIP)](./Papyrus_Language_Reference/Concepts/Comments.md)
     - [Variables (WIP)](./Papyrus_Language_Reference/Concepts/Variables.md)
     - [Properties (WIP)](./Papyrus_Language_Reference/Concepts/Properties.md)
     - [Functions (WIP)](./Papyrus_Language_Reference/Concepts/Functions.md)
