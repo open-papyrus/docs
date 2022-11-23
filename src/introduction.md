@@ -1,10 +1,16 @@
-The Open Papyrus Compiler is an open-source compiler for the Papyrus scripting language used in Skyrim and Fallout 4.
+# Introduction
 
-The compiler provided by Bethesda with the Creation Kit does the minimum amount of work required to produce an output. The CK compiler allows code with bugs to compile and does not optimize the code for better performance.
+This website contains all information about the [Open Papyrus](https://github.com/open-papyrus) project. The project is centered around creating open-source tools and libraries for working with the Papyrus scripting language used in Skyrim and Fallout 4. We are also gathering and validating information around the language in order to guarantee the correctness of the tools and libraries we create.
 
-This project aims to create a modern Papyrus compiler for a better development experience and better runtime performance by creating meaningful diagnostics and applying optimizations.
+You can find the source code for everything on [GitHub](https://github.com/open-papyrus). Here is a short list of things we are working on:
 
-Aside from the compiler, the [Open Papyrus project](https://github.com/open-papyrus) contains other tools you might find useful.
+- [papyrus-compiler](./papyrus-compiler/Introduction.md): Open-source Papyrus compiler with a focus on optimizations
+
+- [tree-sitter-papyrus](./tree-sitter-papyrus/Introduction.md): [Tree-sitter](https://tree-sitter.github.io/tree-sitter/) plugin for Papyrus
+
+- [Research and Validation](https://github.com/open-papyrus/research): Utility for research and validating assumptions based on previously made available information surrounding Papyrus as well as validating other theories on the inner workings of the Creation Kit compilers.
+
+- [Papyrus Language Reference](./Papyrus_Language_Reference/index.md): A consistent and validated reference for the Papyrus language.
 
 ## Using this Wiki
 

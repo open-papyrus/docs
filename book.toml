@@ -3,8 +3,8 @@ authors = ["erri120"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Open Papyrus Compiler"
-description = "Documentation for the Open Papyrus Compiler"
+title = "Open Papyrus"
+description = "Documentation for the Open Papyrus project"
 
 [build]
 create-missing = false

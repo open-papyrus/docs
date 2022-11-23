@@ -1,24 +1,28 @@
 # Summary
 
-[Introduction](./introduction.md)
+[Introduction](./Introduction.md)
 [Additional Resources](./Additional_Resources.md)
 
-# User Guide
+# papyrus-compiler
 
-- [Installation]()
-- [Usage]()
+- [Introduction](./papyrus-compiler/Introduction.md)
+- [User Guide]()
+    - [Installation]()
+    - [Usage]()
+- [Compiler Reference]()
+    - [Compiler Terminology](./papyrus-compiler/Compiler_Reference/Compiler_Terminology.md)
+    - [Diagnostics](./papyrus-compiler/Compiler_Reference/Diagnostics/index.md)
+        - [Lexer Diagnostics](./papyrus-compiler/Compiler_Reference/Diagnostics/Lexer_Diagnostics.md)
+        - [Parser Diagnostics](./papyrus-compiler/Compiler_Reference/Diagnostics/Parser_Diagnostics.md)
+    - [Optimizations](./papyrus-compiler/Compiler_Reference/Optimizations/index.md)
+        - [Constant Folding](./papyrus-compiler/Compiler_Reference/Optimizations/Constant_Folding.md)
+        - [Constant Propagation](./papyrus-compiler/Compiler_Reference/Optimizations/Constant_Propagation.md)
+        - [Function Inlining](./papyrus-compiler/Compiler_Reference/Optimizations/Function_Inlining.md)
+        - [Expression Simplification](./papyrus-compiler/Compiler_Reference/Optimizations/Expression_Simplification.md)
 
-# Compiler Reference
+# tree-sitter-papyrus
 
-- [Compiler Terminology](./Compiler_Reference/Compiler_Terminology.md)
-- [Diagnostics](./Compiler_Reference/Diagnostics/index.md)
-    - [Lexer Diagnostics](./Compiler_Reference/Diagnostics/Lexer_Diagnostics.md)
-    - [Parser Diagnostics](./Compiler_Reference/Diagnostics/Parser_Diagnostics.md)
-- [Optimizations](./Compiler_Reference/Optimizations/index.md)
-    - [Constant Folding](./Compiler_Reference/Optimizations/Constant_Folding.md)
-    - [Constant Propagation](./Compiler_Reference/Optimizations/Constant_Propagation.md)
-    - [Function Inlining](./Compiler_Reference/Optimizations/Function_Inlining.md)
-    - [Expression Simplification](./Compiler_Reference/Optimizations/Expression_Simplification.md)
+- [Introduction](./tree-sitter-papyrus/Introduction.md)
 
 # Papyrus Language Reference
 
