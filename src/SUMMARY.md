@@ -49,10 +49,10 @@
 
 # Creation Kit
 
-- [Skyrim]()
-    - [Compiler Reference]()
+- [Skyrim](./Creation_Kit/Skyrim/index.md)
+    - [Compiler Reference](./Creation_Kit/Skyrim/Compiler_Reference.md)
     - [Script References]()
-- [Fallout 4]()
-    - [Compiler Reference]()
+- [Fallout 4](./Creation_Kit/Fallout_4/index.md)
+    - [Compiler Reference](./Creation_Kit/Fallout_4/Compiler_Reference.md)
     - [Script References]()
 - [Differences between Games]()
