@@ -47,6 +47,11 @@
     - [Statements (WIP)](./Papyrus_Language_Reference/Concepts/Statements.md)
     - [Expressions (WIP)](./Papyrus_Language_Reference/Concepts/Expressions.md)
 
+# Pex File Format
+
+- [Introduction](./Pex_File_Format/index.md)
+- [Endianness](./Pex_File_Format/Endianness.md)
+
 # Creation Kit
 
 - [Skyrim](./Creation_Kit/Skyrim/index.md)
