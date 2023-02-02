@@ -146,23 +146,23 @@
                     <main>
                         <h1 id="endianness"><a class="header" href="#endianness">Endianness</a></h1>
 <p><a href="https://en.wikipedia.org/wiki/Endianness">Endianness</a> is the order or sequence of bytes. It is primarily expressed as <strong>big-endian (BE)</strong> or <strong>little-endian (LE)</strong>. As an example, let's look at the 32-bit integer <code>0x75BCD15</code>:</p>
-<pre><code class="language-mermaid">graph LR
+<pre class="mermaid">graph LR
     input[0x075BCD15]
     input -- most significant --&gt; A1[0x07] --&gt; output
     input --&gt; B1[0x5B] --&gt; output
     input --&gt; C1[0xCD] --&gt; output
     input -- least significant --&gt; D1[0x15] --&gt; output
     output[123456789]
-</code></pre>
+</pre>
 <p>The 32-bit integer <code>0x075BCD15</code> has the value <code>123456789</code> on a big-endian system.</p>
-<pre><code class="language-mermaid">graph LR
+<pre class="mermaid">graph LR
     input[0x075BCD15]
     input -- least significant --&gt; A1[0x15] --&gt; output
     input --&gt; B1[0xCD] --&gt; output
     input --&gt; C1[0x5B] --&gt; output
     input -- most significant --&gt; D1[0x07] --&gt; output
     output[365779719]
-</code></pre>
+</pre>
 <p>The 32-bit integer <code>0x075BCD15</code> has the value <code>365779719</code> on a little-endian system.</p>
 <h2 id="game-version-differences"><a class="header" href="#game-version-differences">Game Version Differences</a></h2>
 <ul>
