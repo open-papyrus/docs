@@ -4,7 +4,9 @@
 
 - [git](https://git-scm.com/), [GitHub Desktop](https://desktop.github.com/), [GitKraken](https://www.gitkraken.com/git-client) or any other Git client
 - some editor: [Visual Studio Code](https://code.visualstudio.com/)
-- [mdBook](https://rust-lang.github.io/mdBook/guide/installation.html)
+- [rustup](https://rustup.rs/)
+- [mdBook](https://rust-lang.github.io/mdBook/guide/installation.html): `cargo install mdbook`
+- [mdbook-mermaid](https://github.com/badboy/mdbook-mermaid): `cargo install mdbook-mermaid`
 
 ## Editing
 
